@@ -1,0 +1,51 @@
+EMMET:
+id 		# 
+class 		. 
+content 	{} 
+Nesting 	>
+Multiplication 	* 
+Index		$
+Sibling		+ (same level), or add inner elements
+groups		()
+attributes	[]
+
+hdr	header
+ftr	footer
+btn	button
+bq	blockquote
+!	html template
+.myClass  div with class=myClass
+#myID	  div with id=myID
+
+.myClass#myID	
+#myID.Class1.Class2
+
+h1.red{Content}	h1 tag with class=red and with the value of content
+
+ul#navigation>li*5>{List item 1}
+ul#navigation>li*5>{List item $}	index
+
+Sibling		
+div>h1.title+p.body
+
+#forms
+form:post
+form:get
+inp		input with name and id
+input:s		submit element
+
+table+		adds a table with all inner elements
+select+		
+lorem		a random paragraph words
+lorem100	100 random words
+ul.myList>lorem10.item*5
+
+CTRL+/	Toggle comment
+CTRL+D (CTRL+ALT+j)	Goto matching pair
+			merge lines
+
+
+
+
+
+
